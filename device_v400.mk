@@ -92,9 +92,7 @@ PRODUCT_COPY_FILES += \
     device/lge/v400/rootdir/init.zetaw.usb.rc:root/init.zetaw.usb.rc \
     device/lge/v400/rootdir/init.zetaw.usb.sh:root/init.zetaw.usb.sh \
     device/lge/v400/rootdir/ueventd.e7wifi.rc:root/ueventd.e7wifi.rc \
-# TWRP
-PRODUCT_COPY_FILES += \
-   device/lge/v400/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
+
 
 # Audio
 PRODUCT_PACKAGES += \

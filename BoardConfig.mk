@@ -158,11 +158,11 @@ RECOVERY_SDCARD_ON_DATA := true
 HAVE_SELINUX := true
 BOARD_HAS_NO_MISC_PARTITION := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
-TARGET_INCREMENTAL_OTA_VERBATIM_FILES := system/app/Provision.apk
+TW_SCREEN_BLANK_ON_BOOT := true
+PRODUCT_COPY_FILES += device/lge/v400/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
+PRODUCT_COPY_FILES += device/lge/v400/rootdir/extra.fstab:recovery/root/etc/extra.fsta
 
 
-
-BOARD_HAS_NO_SELECT_BUTTON := true
 # SELinux
 BOARD_SEPOLICY_DIRS += \
 	device/lge/v400/sepolicy
