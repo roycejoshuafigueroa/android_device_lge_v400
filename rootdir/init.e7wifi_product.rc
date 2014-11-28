@@ -1,5 +1,3 @@
-import /init.lge.powerlog.rc
-
 on init
 	mkdir /cust 0771 system system
 	wait /dev/block/platform/msm_sdcc.1/by-name/cust

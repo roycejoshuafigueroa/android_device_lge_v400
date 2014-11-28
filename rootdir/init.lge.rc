@@ -45,9 +45,6 @@ on post-fs-data
     mkdir /persist-lg/multimedia/scnt 0770 media divxdrm
     mkdir /persist-lg/multimedia/scnt/sdadf 0770 media divxdrm
 
-    #MM Proxy
-    mkdir /persist-lg/mmoprt 0771 system lg_fota
-
 	#Kill-Switch
     mkdir /persist-lg/mms 0770 system lgmms
 

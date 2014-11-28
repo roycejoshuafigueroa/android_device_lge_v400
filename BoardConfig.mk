@@ -42,7 +42,7 @@ TARGET_NO_BOOTLOADER := true
 # Kernel
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_CUSTOM_BOOTIMG_MK := device/lge/v400/mkbootimg.mk
-TARGET_KERNEL_SOURCE := kernel/lge/msm8226
+TARGET_KERNEL_SOURCE := kernel/lge/v400
 TARGET_KERNEL_CONFIG := cm11_e7wifi_defconfig
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 user_debug=31 msm_rtb.filter=0x37 androidboot.hardware=e7wifi ignore_loglevel
 BOARD_KERNEL_BASE := 0x00000000
